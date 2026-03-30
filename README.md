@@ -64,7 +64,7 @@ The application uses the following environment variables. Update your `.env` fil
 
 ## 📂 Project Structure
 
-*   `index.js`: Orchestrator script to launch the API and Bot simultaneously.
+*   `main.js`: Orchestrator script to launch the API and Bot simultaneously.
 *   `discord_client.js`: Handles Discord gateway connection, slash commands, and price alert logic.
 *   `qapi.js`: Express server exposing market data endpoints with validation.
 *   `.env`: Environment variables (not tracked in git).
@@ -75,7 +75,7 @@ The application uses the following environment variables. Update your `.env` fil
 ### 1. Running the Application
 Run the launcher script to start both the API and the Bot:
 ```bash
-node index.js
+node main.js
 ```
 
 *Alternatively, run processes individually for debugging:*
